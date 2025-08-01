@@ -5,3 +5,4 @@ model = nn.sequential(
   l2,l3
 )
 model.state_dict()
+model.sum()
