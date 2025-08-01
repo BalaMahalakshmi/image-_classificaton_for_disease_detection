@@ -112,3 +112,12 @@ chest_xray/
 ```bash
 git clone https://github.com/your-username/medical-image-classification.git
 cd medical-image-classification
+
+
+output:
+| Class                | Precision | Recall | F1-Score | Support |
+| -------------------- | --------- | ------ | -------- | ------- |
+| **NORMAL**           | 0.89      | 0.92   | 0.91     | 234     |
+| **PNEUMONIA**        | 0.95      | 0.88   | 0.91     | 390     |
+| **Overall Accuracy** | —         | —      | **91%**  | 624     |
+
